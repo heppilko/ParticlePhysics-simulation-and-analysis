@@ -9,5 +9,8 @@ Basic workflow should be:
 
 Needs a bunch of packages: recommend mamba package manager (like conda but faster).
 - follow the instructions to install mamba here: https://scikit-hep.org/user/installing-conda
-- create an environment for your project with root in (needed for Delphes): mamba create -n cernroot root
+- create an environment for your project with various packages in it that you need for the simulation (needed for Madgraph and Delphes): mamba create -n cernroot root wget
 - on each shell instance, will need to activate: conda activate cernroot
+
+Download and install/build Madgraph and standalone Delphes:
+- source installSimulation.sh
