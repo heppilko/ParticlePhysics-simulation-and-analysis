@@ -10,4 +10,8 @@ Basic workflow should be:
 (3) Analysis using angular variables and NN variables. Best in python for standard data science libraries.
 
 
+
 Needs a bunch of packages: recommend mamba package manager (like conda but faster).
+- follow the instructions to install mamba here:
+- create an environment for your project with root in (needed for Delphes): mamba create -n cernroot root
+- on each shell instance, will need to activate: conda activate cernroot
