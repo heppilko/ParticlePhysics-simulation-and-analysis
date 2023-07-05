@@ -1,0 +1,12 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore .hepmc and .root as they will be too large
+*.hepmc
+*.root
+
+#Ignore .yoda 
+*.yoda
+
+#Ignore checkpoints jupyter
+*.ipynb_checkpoints
