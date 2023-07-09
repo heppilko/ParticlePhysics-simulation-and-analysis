@@ -1,0 +1,10 @@
+import model sm
+generate p p > mu+ mu-
+output zmumu_sm
+launch
+shower=Pythia8
+set ptl 25.0
+set etal 2.4
+set use_syst True
+set mmll 66.0
+set mmllmax 116.0
