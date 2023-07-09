@@ -1,22 +1,24 @@
 # CPV-FCC
-CPV studies for FCC
+
+******************************************************************************
 
 Basic workflow should be:
 - Generate process of interest with Madgraph5_aMC@NLO. Pythia8 turned on. Produces hepmc file
 - Use Delphes to add detector simulation. Produces root file in EDM4HEP format
 - Analysis using angular variables and NN variables. Best in python for standard data science libraries.
 
-You can merge steps 1&2 if you want by enabling the Delphes module in MG5. This requires root to be installed on the system
+******************************************************************************
 
-
-Download and install Madgraph and standalone Delphes:
+Download and install/build Madgraph:
+- needs python, gcc, gfortran
 - source installMadgraph.sh
+- follow the on screen instructions to run MG interactively and install the pythia module
+- you can find a tutorial for generating events with Madgraph here: 
+
+Download and install/build Delphes:
+- needs git and ROOT libraries
 - source installDelphes.sh
+- excessive number of depracated warnings......
+- using Delphes is straightforward, see: 
 
-Needs a bunch of packages: recommend mamba package manager (like conda but faster).
-- follow the instructions to install mamba here: https://scikit-hep.org/user/installing-conda
-- create an environment for your project with various packages in it: mamba create -n cernroot root wget
-- on each shell instance, will need to activate: conda activate cernroot
-
-Download and install/build Madgraph and standalone Delphes:
-- source installSimulation.sh
+******************************************************************************
