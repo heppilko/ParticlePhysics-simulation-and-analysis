@@ -36,3 +36,17 @@ Try running interactively in the shell to play around with the parameters.
 - A basic tutorial on Madgraph can be found here: https://indico.cern.ch/event/555228/sessions/203428/attachments/1315471/1970459/tutorial-CMSandATLAS-2016.pdf
 
 ******************************************************************************
+
+******************************************************************************
+
+## Running Delphes
+
+Instructions on Delphes can be found here:https://github.com/delphes/delphes
+
+To run on the file created in the previous step (Madgraph):
+- gunzip the tag_1_pythia8_events.hepmc.gz file in the zmumu_sm/Events/run_01/ directory
+- In the Delphes directory try: ./DelphesHepMC2 cards/delphes_card_ATLAS.tcl delphes_output.root ../MG5_aMC_v2_9_15/zmumu_sm/Events/run_01/tag_1_pythia8_events.hepmc
+- This produces an output file called delphes_output.root
+- You can open a TBrowser in ROOT to inspect the branches in this file. Look at the muon spectra as you know the simulation contained Z -> mu+ mu- events.
+
+******************************************************************************
