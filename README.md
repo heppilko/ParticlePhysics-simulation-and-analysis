@@ -50,3 +50,13 @@ To run on the file created in the previous step (Madgraph):
 - You can open a TBrowser in ROOT to inspect the branches in this file. Look at the muon spectra as you know the simulation contained Z -> mu+ mu- events.
 
 ******************************************************************************
+
+## Analysing events in Python
+
+An simple analysis of the Z -> mu+ mu- events is included as a jupyter notebook:
+- see Examples/analysis_python.ipynb
+- you will need to install scikit-hep (https://scikit-hep.org) preferably in a conda environment.
+- you should make sure you have a good editor capable of running jupyter. Visual Studio Code is good.
+
+******************************************************************************
+
