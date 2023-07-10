@@ -20,7 +20,6 @@ Download and install/build Delphes:
 - needs git and ROOT libraries
 - source installDelphes.sh
 - excessive number of depracated warnings......
-- using Delphes is straightforward, see: 
 
 ******************************************************************************
 
