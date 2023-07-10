@@ -10,3 +10,8 @@
 
 #Ignore checkpoints jupyter
 *.ipynb_checkpoints
+
+#Ignore Delphes and Madgraph directories
+Delphes/
+MG5_aMC_*/
+
