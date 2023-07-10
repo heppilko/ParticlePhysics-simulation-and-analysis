@@ -57,6 +57,7 @@ An simple analysis of the Z -> mu+ mu- events is included as a jupyter notebook:
 - see Examples/analysis_python.ipynb
 - you will need to install scikit-hep (https://scikit-hep.org) preferably in a conda environment.
 - you should make sure you have a good editor capable of running jupyter. Visual Studio Code is good.
+- to understand more about columnar analysis in uproot, see this tutorial: https://masonproffitt.github.io/uproot-tutorial/aio/index.html
 
 ******************************************************************************
 
