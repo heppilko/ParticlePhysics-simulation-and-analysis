@@ -1,11 +1,11 @@
-# CPV-FCC
+# FCC simulation and analysis
 
 ******************************************************************************
 
 Basic workflow should be:
 - Generate process of interest with Madgraph5_aMC@NLO. Pythia8 turned on. Produces hepmc file
 - Use Delphes to add detector simulation. Produces root file in EDM4HEP format
-- Analysis using angular variables and NN variables. Best in python for standard data science libraries.
+- Analysis. Best in python for standard data science libraries.
 
 ******************************************************************************
 
