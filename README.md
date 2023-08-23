@@ -1,10 +1,12 @@
 # FCC simulation and analysis
 
+This repository was written as a starting point for MPhys students at Manchester that are working on simulation + data analysis projects with the Manchester Particle Physics group.
+
 ******************************************************************************
 
 Basic workflow should be:
 - Generate process of interest with Madgraph5_aMC@NLO. Pythia8 turned on. Produces hepmc file
-- Use Delphes to add detector simulation. Produces root file in EDM4HEP format
+- Use Delphes to add detector simulation. Produces root file with leptons, photons, jets, etc.
 - Analysis. Best in python for standard data science libraries.
 
 ******************************************************************************
@@ -56,7 +58,7 @@ To run on the file created in the previous step (Madgraph):
 An simple analysis of the Z -> mu+ mu- events is included as a jupyter notebook:
 - see Examples/analysis_python.ipynb
 - you will need to install scikit-hep (https://scikit-hep.org) preferably in a conda environment.
-- you should make sure you have a good editor capable of running jupyter. Visual Studio Code is good.
+- you should make sure you have a good editor capable of running jupyter.
 - to understand more about columnar analysis in uproot, see this tutorial: https://masonproffitt.github.io/uproot-tutorial/aio/index.html
 
 ******************************************************************************
