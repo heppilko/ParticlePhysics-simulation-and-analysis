@@ -1,4 +1,4 @@
-# FCC simulation and analysis
+# Particle physics simulation and analysis
 
 This repository was written as a starting point for MPhys students at Manchester that are working on simulation + data analysis projects with the Manchester Particle Physics group.
 
