@@ -28,7 +28,10 @@ Download and install/build Delphes:
 ## Running Madgraph
 
 An example is provided to produce Z -> mu+ mu- events from a script:
-- From the MG directory, type ./bin/mg5_aMC ../Examples/mg_zmumu_sm.txt
+- From the MG directory, type
+```ruby
+  ./bin/mg5_aMC ../Examples/mg_zmumu_sm.txt
+```
 - An output directory is created called zmumu_sm 
 - The output .hepmc file (for use with Delphes) can be found in zmumu_sm/Events/run_01/tag_1_pythia8_events.hepmc.gz
 - Compare the cross section you get to the fiducial cross section measured by ATLAS here: https://arxiv.org/abs/1603.09222
