@@ -9,4 +9,3 @@ dependencies:
   - openssl
   - root
   - make
-prefix: /gluster/home/apilkington/mambaforge/envs/mphys
