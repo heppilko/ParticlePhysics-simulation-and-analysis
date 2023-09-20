@@ -79,10 +79,14 @@ gunzip tag_1_pythia8_events.hepmc.gz
 
 ## Analysing events in Python
 
-An simple analysis of the Z -> mu+ mu- events is included as a jupyter notebook:
-- see Examples/analysis_python.ipynb
+An simple analysis of the Z -> mu+ mu- events is included as a python script and as a jupyter notebook in the Examples directory
 - you will need to install scikit-hep (https://scikit-hep.org), this is most easily done in a conda environment.
-- you should make sure you have a good editor capable of running jupyter.
+
+To analyses the events previously produced, from the Examples directory try:
+```ruby
+python analysis_python.py
+```
+- alternatively, you can open the jupyter notebook (analysis_python.ipynb) if your machine is capable of running jupyter.
 - to understand more about columnar analysis in uproot, see this tutorial: https://masonproffitt.github.io/uproot-tutorial/aio/index.html
 
 ******************************************************************************
