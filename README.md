@@ -23,6 +23,7 @@ Before you start doing anything else, you need to make sure the following are in
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
 mamba env create -f ParticlePhysics-simulation-and-analysis/Misc/environment.yml
+mamba activate mphys
 ```
 
 Then, you can go into the directory and install/build Madgraph and Delphes:
