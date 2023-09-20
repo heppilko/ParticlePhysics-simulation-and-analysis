@@ -18,21 +18,20 @@ You can clone this repository using git via https or ssh, i.e.
 git clone https://github.com/heppilko/ParticlePhysics-simulation-and-analysis.git
 ```
 
-Once this is done, you can go into the directory and install/build Madgraph and Delphes:
-```ruby
-cd ParticlePhysics-simulation-and-analysis
-source installMadgraph.sh
-source installDelphes.sh
-```
-
-For the above to work, you need the following to be installed on your machine: python 3.7 (or later), gcc/gfortran 4.6 (or later), and the CERN ROOT libraries. For running the analysis steps later, you will also need scikit-hep installed. 
-
-If the above pacakges are not installed, an easy way to proceed is to install conda/mamba (https://github.com/conda-forge/miniforge#mambaforge) and create a conda environment using the environment.yml file provided in this package, i.e. before you try to install Madgraph/Pythia/Delphes, do the following:
+Before you start doing anything else, you need to make sure the following are installed on your machine: python 3.7 (or later), gcc/gfortran 4.6 (or later), and the CERN ROOT libraries. For running the analysis steps later, you will also need scikit-hep installed. If these packages are not installed on your machine, an easy way to proceed is to install conda/mamba (https://github.com/conda-forge/miniforge#mambaforge) and create a conda environment using the environment.yml file provided in this package, i.e. 
 ```ruby
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
-mamba env create -f Misc/environment.yml
+mamba env create -f ParticlePhysics-simulation-and-analysis/Misc/environment.yml
 ```
+
+Then, you can go into the directory and install/build Madgraph and Delphes:
+```ruby
+cd ParticlePhysics-simulation-and-analysis
+source installDelphes.sh
+source installMadgraph.sh
+```
+Follow the onscreen instructions to run Madgraph interactively and install Pythia8.
 
 ******************************************************************************
 
