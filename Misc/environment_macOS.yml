@@ -1,0 +1,10 @@
+name: testmac
+channels:
+  - conda-forge
+dependencies:
+  - clang-14
+  - gfortran
+  - scikit-hep
+  - root
+  - make
+prefix: /Users/pilko/mambaforge/envs/testmac
