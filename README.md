@@ -13,19 +13,26 @@ Basic workflow should be:
 
 ## Initial Setup
 
-To download and install/build Madgraph, use the install script provided, i.e.
-```ruby
-source installMadgraph.sh
+You can clone this repository using git via https or ssh, i.e.
 ```
-- needs python, gcc, gfortran
-- follow the on screen instructions to run MG interactively and install the pythia module
+git clone https://github.com/heppilko/ParticlePhysics-simulation-and-analysis.git
+```
 
-To download and install/build Delphes, use the install script provided, i.e.
+Once this is done, you can go into the directory and install/build Madgraph and Delphes:
 ```ruby
+cd ParticlePhysics-simulation-and-analysis
+source installMadgraph.sh
 source installDelphes.sh
 ```
-- needs git and ROOT libraries
-- there are a large number of depracated warnings......
+
+For the above to work, you need the following to be installed on your machine: python 3.7 (or later), gcc/gfortran 4.6 (or later), and the CERN ROOT libraries. For running the analysis steps later, you will also need scikit-hep installed. 
+
+If the above pacakges are not installed, an easy way to proceed is to install conda/mamba (https://github.com/conda-forge/miniforge#mambaforge) and create a conda environment using the environment.yml file provided in this package, i.e. before you try to install Madgraph/Pythia/Delphes, do the following:
+```ruby
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+mamba env create -f Misc/environment.yml
+```
 
 ******************************************************************************
 
