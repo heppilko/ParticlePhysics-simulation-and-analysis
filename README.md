@@ -91,3 +91,9 @@ python analysis_python.py
 
 ******************************************************************************
 
+## Analysing events in C++ with ROOT
+
+An alternative, but conceptually identical, analysis of the Z -> mu+ mu- events is included as a ROOT macro. To analyse the events, change directory to the Examples directory and try:
+```ruby
+root -l analysis_root.C
+```
