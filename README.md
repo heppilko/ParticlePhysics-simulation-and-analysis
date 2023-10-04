@@ -79,10 +79,7 @@ gunzip tag_1_pythia8_events.hepmc.gz
 
 ## Analysing events in Python
 
-An simple analysis of the Z -> mu+ mu- events is included as a python script and as a jupyter notebook in the Examples directory
-- you will need to install scikit-hep (https://scikit-hep.org), this is most easily done in a conda environment.
-
-To analyse the events produced in the previous steps, change directory to the Examples directory and try:
+An simple analysis of the Z -> mu+ mu- events is included as a python script and as a jupyter notebook. To analyse the events produced in the previous steps, change directory to the Examples directory and try:
 ```ruby
 python analysis_python.py
 ```
