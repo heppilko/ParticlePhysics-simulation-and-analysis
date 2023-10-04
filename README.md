@@ -97,3 +97,4 @@ An alternative, but conceptually identical, analysis of the Z -> mu+ mu- events 
 ```ruby
 root -l analysis_root.C
 ```
+- you can find out more about ROOT macros here: https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html
