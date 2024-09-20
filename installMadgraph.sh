@@ -1,7 +1,7 @@
 # install MG
 curl -OL https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.5.tar.gz
-tar -xf MG5_aMC_v3.3.5.tar.gz
-rm MG5_aMC_v3.3.5.tar.gz
+tar -xf MG5_aMC_v3.5.5.tar.gz
+rm MG5_aMC_v3.5.5.tar.gz
 curl -OL http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/SMEFT/SMEFTsim_U35_MwScheme_UFO.tar.gz
 tar -zxvf SMEFTsim_U35_MwScheme_UFO.tar.gz
 mv SMEFTsim_U35_MwScheme_UFO MG5_aMC_v3_5_5/models/.
