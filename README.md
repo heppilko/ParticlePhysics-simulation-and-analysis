@@ -26,6 +26,20 @@ mamba env create -f ParticlePhysics-simulation-and-analysis/Misc/environment.yml
 mamba activate mphys
 ```
 
+Alternatively, you can run the following on macos:
+```
+# If you don't have homebrew yet:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Then, in your work directory:
+brew install root
+python -m venv mg5.venv
+source mg5.venv/bin/activate
+pip install scikit-hep
+pip install setuptools
+brew install davidchall/hep/lhapdf
+```
+
 Then, you can go into the directory and install/build Madgraph and Delphes:
 ```ruby
 cd ParticlePhysics-simulation-and-analysis
