@@ -73,7 +73,7 @@ gunzip tag_1_pythia8_events.hepmc.gz
 
 (2) In the Delphes directory try:
 ```ruby
-./DelphesHepMC2 cards/delphes_card_ATLAS.tcl delphes_output.root ../MG5_aMC_v2_9_15/zmumu_sm/Events/run_01/tag_1_pythia8_events.hepmc
+./DelphesHepMC2 cards/delphes_card_ATLAS.tcl delphes_output.root ../MG5_aMC_v3_5_5/zmumu_sm/Events/run_01/tag_1_pythia8_events.hepmc
 ```
 - This produces an output file called delphes_output.root
 - You can open a TBrowser in ROOT to inspect the branches in this file. Look at the muon spectra as you know the simulation contained Z -> mu+ mu- events.
