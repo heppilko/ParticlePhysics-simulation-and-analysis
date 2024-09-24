@@ -53,7 +53,10 @@ Follow the onscreen instructions to run Madgraph interactively and install Pythi
 ./bin/mg5_aMC
 ```
 - A basic tutorial on Madgraph can be found here: https://indico.cern.ch/event/555228/sessions/203428/attachments/1315471/1970459/tutorial-CMSandATLAS-2016.pdf
-
+- If you run into an error after showering the events with Pythia8, then the "PYTHIA8DATA" environment variable has not been correctly set. You need to set this variable (every time you log in, preferably as part of your .bashrc):
+```ruby
+export PYTHIA8DATA=<path to your madgraph directory>/HEPTools/pythia8/share/Pythia8/xmldoc
+```
 ******************************************************************************
 
 ******************************************************************************
