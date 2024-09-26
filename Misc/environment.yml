@@ -2,6 +2,7 @@ name: mphys
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - scikit-hep
   - gfortran
   - ca-certificates
